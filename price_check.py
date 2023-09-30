@@ -22,11 +22,6 @@ def accept_google_cookies(wd):
         print("Could not find or click the 'Accept all' button:", str(e))
 
 
-loop = 1
-
-#def make_selection(wd):
-
-
 
 def search_for_flights(wd):
 
@@ -99,13 +94,6 @@ def get_flight_prices(flight_data, wd):
             for item in li_elements:
                 # Print the text content of each <li> element
                 print(item.text)
-
-        # for result in soup.find.al('ul'):
-        #     for items in result.find.all('li class=pIav2d'):
-        #         print (items)
-
-
-        
 
 
     except Exception as e:
